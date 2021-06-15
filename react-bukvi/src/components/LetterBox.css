@@ -1,0 +1,25 @@
+.LetterBox {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    border: 3px solid black;
+    border-radius: 5px;
+    transition: .5s;
+    flex-basis: 10%;
+    flex-grow: 25%;
+    text-align: center;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+
+.LetterBox:hover {
+    cursor: pointer;
+    background-color: rgba(30, 167, 167, 0.164);
+    border-color: rgba(143, 155, 155, 0.164);
+    color: rgb(10, 112, 112);
+}
